@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: gray;
+}
+
+.wrapper {
+	display: flex;
+
+}
+
+.form {
+  text-align: left;
+  margin: 30px;
+  width: 45%;
+}
+
+.form_contents {
+	margin: 30px;
+}
+
+.form_contents input, label, textarea {
+	width: 100%;
+	font-size: x-large;
+}
+
+.form_contents label {
+	color: white;
+}
+
+button {
+	font-size: larger;
+	padding: 10px;
+	border-radius: 8px;
+	color: white;
+	border: none;
+	font-weight: bold;
+}
+
+#submit {
+	background-color: blue;
+}
+
+#update {
+	background-color: green;
+}
+
+.playlist {
+	margin-top: 60px;
+}
+
+.playlist_item {
+	text-align: left;
+	color: white;
+	background-color: lightseagreen;
+	border-radius: 4px;
+}
+
+.playlist_item_list {
+	list-style-type: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
